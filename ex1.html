@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>the guess game</h1>
+    <p>you have to guess a number between 0 to 10</p>
+    <div>
+      <label for="level">Choose level :</label>
+      <input type="number" id="level" class="level" level="level" />
+      <button onclick="setlevel()" type="button" class="levelSubmit">
+        Submit
+      </button>
+    </div>
+    <div>
+      <p>now you have to guess a number between 0 to 10</p>
+    </div>
+    <div>
+      <label for="guess">Your Guess : </label>
+      <input type="number" id="guess" class="guess" guess="guess" />
+      <button onclick="checkGuess()" type="button" class="guessSubmit">
+        Submit
+      </button>
+      <p>resultat:</p>
+      <p class="resultat"></p>
+    </div>
+    <div>
+        <a href="ex2.html"> <button type="button">ex2</button></a>
+      </div>
+      <div>
+        <a href="ex3.html"> <button type="button">ex3</button></a>
+      </div>
+    <script src="ex1.js"></script>
+  </body>
+</html>
